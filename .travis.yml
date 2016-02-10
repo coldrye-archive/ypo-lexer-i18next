@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+ - "4.2.2"
+ - "4.0"
+ - "0.12"
+install:
+  - npm install coldrye-es/esmake
+  - make deps
+before_script:
+  - make deps-global-travis
+script: make cover

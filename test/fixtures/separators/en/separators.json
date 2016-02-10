@@ -1,0 +1,9 @@
+{
+    "key1": "one",
+    "key1-plural": "multiple",
+    "key1-5": "five",
+    "key2": "first\nsecond",
+    "key2~final-plural": "first\nlast",
+    "key2~escapes": "#~ first\n#! last",
+    "key2~multi": "\n\nmulti\n\nline\n\ntext\n\n"
+}

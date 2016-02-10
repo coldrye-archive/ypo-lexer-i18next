@@ -1,0 +1,30 @@
+{
+    "source": "./src",
+    "destination": "build/doc/public",
+    "includes": ["\\.es$"],
+    "access": ["public"],
+    "autoPrivate": true,
+    "unexportIdentifier": false,
+    "undocumentIdentifier": true,
+    "builtinExternal": true,
+    "index": "./README.md",
+    "package": "./package.json",
+    "coverage": true,
+    "includeSource": true,
+    "test": {
+        "type": "mocha",
+        "source": "./test",
+        "includes": ["\\.es$"]
+    },
+    "plugins": [
+        {
+            "name": "esdoc-importpath-plugin",
+            "option": {
+                "replaces": [
+                    {"from": "^src/", "to": ""},
+                    {"from": "\\.es$", "to": ""}
+                ]
+            }
+        }
+    ]
+}
