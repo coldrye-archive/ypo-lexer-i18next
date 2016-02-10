@@ -72,6 +72,13 @@ for (let token of lexer.tokenize('./locales/en/translation.json'))
 }
 ```
 
+And in case that your i18next sources use different separators for plurals a/o contexts,
+you can pass these as options to the lexer on construction, e.g.
+
+```
+let lexer = new Lexer({contextSeparator : '--', pluralSeparator : '++'});
+...
+
 
 ## Resources
 
