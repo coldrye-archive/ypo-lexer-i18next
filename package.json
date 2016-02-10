@@ -1,6 +1,6 @@
 {
   "name": "ypo-lexer-i18next",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lexer for the i18next2 file format",
   "keywords": [
     "ypo",
