@@ -4,7 +4,7 @@
 # ypo-lexer-i18next
 
 ypo-lexer-i18next is a lexer used for converting the i18next v2 file format
-to the YPO file format. It basically translated a JSON file into tokens that
+to the YPO file format. It basically translates a JSON file into tokens that
 then can be further processed by the ypo-parser.
 
 The main use for this package lies with ypo-cli.
